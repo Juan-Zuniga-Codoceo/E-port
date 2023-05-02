@@ -14,7 +14,7 @@ function generateRandomNumber() {
   
     // Generar un número de terminal aleatorio entre 1 y 10
     var terminalNumber = generateRandomNumber();
-    terminal.innerHTML = "Terminal " + terminalNumber;
+    terminal.innerHTML = terminalNumber;
   }
   
   // Función para mostrar la hora y fecha en la página
@@ -49,6 +49,8 @@ function generateRandomNumber() {
   
     //seleccionar el pop-up
     var popup = document.getElementById("documents-popup");
+    popup.style.display = "block";
+    popup.classList.add("highlight");
     //agregar evento click al botón cerrar
     document.getElementById("documents-button").addEventListener("click", function() {
       popup.style.display = "none";
