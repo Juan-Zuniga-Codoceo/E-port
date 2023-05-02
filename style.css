@@ -69,6 +69,19 @@
     cursor: pointer;
     background-color: #0069d9;
   }
+
+  #container {
+    background: linear-gradient(to bottom right, #f368e0, #6c5ce7, #12c2e9);
+  }
   
+  .container {
+    padding-bottom: 0px;
+  }
   
-  
+
+  html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
