@@ -1,28 +1,35 @@
-/* Estilos para la primera tarjeta */
 .card-welcome {
-    background-color: #f5f5f5;
+    background-color: #F8F8F8;
     border: 1px solid #ccc;
     padding: 20px;
-  }
-  
-  /* Estilos para la segunda tarjeta */
-  .card-time {
-    background-color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card-time, .card-date, .card-flight {
+    background-color: #F8F8F8;
     border: 1px solid #ccc;
     padding: 20px;
-  }
-  
-  /* Estilos para la tercera tarjeta */
-  .card-date {
-    background-color: #f5f5f5;
-    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.card-time h2, .card-date h2, .card-flight h2 {
+    margin-top: 0;
+}
+
+.card-flight p {
+    margin-bottom: 0;
+}
+
+.card-popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding: 20px;
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 999;
   }
-  
-  /* Estilos para la cuarta tarjeta */
-  .card-flight {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 20px;
-  }
-  
